@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding 800px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    display: table;
+    position: absolute;
+    overflow: hidden;
+    color: aliceblue;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    width: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 86px;
+    font-family: fantasy;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#bio {
+    padding 50px;
+    text-align: center;
+    font-size: 42px
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: darkblue;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+}
+
+.links:hover {
+    font-size: 26px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    background-color: cyan;
+}
